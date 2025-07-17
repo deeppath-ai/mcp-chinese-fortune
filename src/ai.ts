@@ -58,10 +58,14 @@ server.tool(
     hour: z.number().describe('hour, for example: 5'),
   },
   async ({ year,month, day, hour}) => {
-    const lunarInstance = new ApplicationLunar(year, `${month}`, `${day}`);
+    let month_str = `${month}`
+    if (month< 10){
+      month_str = `0${month}`
+    }
+    const lunarInstance = new ApplicationLunar(year, month_str, `${day}`);
     lunarInstance.setTime(`${hour}`)
     let ml = lunarInstance.getJson()
-    // console.log(ml)
+    console.log(ml)
     
     let result = `分析下面 分析命理运势 \n \n ${JSON.stringify(ml)} `
     

@@ -43,8 +43,8 @@ function lunar(year: number, month: string, day: string): LunarModule {
 // const result = yu.getChineseAgeInfo(birthDate);
 // console.log(result);
 
-const lunarInstance = new ApplicationLunar(1989, '07', '28');
-lunarInstance.setTime("05")
+const lunarInstance = new ApplicationLunar(1989, '07', '2');
+lunarInstance.setTime("5")
 // lunarInstance.setChineseAge('戊子')
 // console.log('123 ',lunarInstance.chineseAge)
 console.log(lunarInstance.getJson())

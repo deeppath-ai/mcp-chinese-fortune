@@ -1,6 +1,6 @@
 {
   "name": "mcp-chinese-fortune",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/ai.js",
   "module": "./src/ai.ts",
   "scripts": {
