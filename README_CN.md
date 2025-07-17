@@ -25,7 +25,8 @@
 
 ## <div align="center">▶️Quick Start</div>
 
-### CLI
+## 部署指南
+
 ~~~bash
 npx -y mcp-chinese-fortune
 ~~~
@@ -45,6 +46,10 @@ npx -y mcp-chinese-fortune
     }
 }
 ~~~
+
+## 使用示例
+
+帮我算下命，出生时间 2011年 10月19日8点
 
 
 ## <div align="center">💭Murmurs</div>
