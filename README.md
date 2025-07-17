@@ -65,3 +65,7 @@ For custom features or integration with internal platforms, please contact the p
 
 - 🌐 [ModelScope MCP Server Page](https://modelscope.cn/mcp/servers/deeppathai/mcp-chinese-fortune)  
   Use this page to debug or integrate the `mcp-chinese-fortune` service within the ModelScope platform.
+
+
+- 🛠️ [Smithery.ai MCP Address](https://smithery.ai/server/@deeppath-ai/mcp-chinese-fortune)  
+  For visual configuration and invocation of the `mcp-marketing-site` service via Smithery.

@@ -63,3 +63,5 @@ npx -y mcp-chinese-fortune
 - 🌐 [魔搭 ModelScope MCP 地址](https://modelscope.cn/mcp/servers/deeppathai/mcp-chinese-fortune)  
   适用于在 ModelScope 平台上调试和集成 `mcp-chinese-fortune` 服务。
 
+- 🛠️ [Smithery.ai MCP 地址](https://smithery.ai/server/@deeppath-ai/mcp-chinese-fortune)  
+  可用于在 Smithery 平台中以可视化方式配置和调用 `mcp-marketing-site` 服务。
